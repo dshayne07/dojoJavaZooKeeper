@@ -8,7 +8,7 @@ public class Mammal {
 	public Mammal(int energy) {
 		this.energy = energy;
 	}
-	public displayEnergy() {
+	public void displayEnergy() {
 		System.out.println("Energy Level: "+this.energy);
 	}
 }

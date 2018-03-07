@@ -1,13 +1,13 @@
 package zookeeper;
 
-public class Gorilla {
+public class Gorilla extends Mammal {
 	private int energy;
 
 	public Gorilla() {
-		this.energy = 100;		
+		super();		
 	}
 	public Gorilla(int energy) {
-		this.energy = energy;
+		super(energy);
 	}
 	public void throwSomething() {
 		System.out.println("The Gorilla threw something!");
